@@ -29,10 +29,31 @@ body{
 .percentage {
     height: 100vh;
     padding: 7%;
+    background-image: url("stars.png");
     background-color: rgb(11, 11, 11);
+    
 }
 .uploading {
     height: 100vh;
     padding: 7%;
     background-color: rgb(63, 63, 63);
+}
+.illustrations {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.starship_img {
+    transform: rotate(90deg);
+    width: 300px;
+}
+.endor_img {
+    width: 300px;
+}
+.path_line {
+    width: 500px;
+    color: white;
+    border: 0;
+    border-top: 1px dashed white;    
 }
