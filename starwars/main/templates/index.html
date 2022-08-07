@@ -9,7 +9,7 @@
 <body>
 <!--<form method="POST" enctype="multipart/form-data">-->
 <!--    {% csrf_token %}-->
-<input onchange="display()" type="file" accept=".json" name="file" id="file">
+<input onchange="empire_to_object()" type="file" accept=".json" name="file" id="file">
 <!--    <input id="submitFile" type="submit">-->
 <!--</form>-->
 <!--<input id="file" type="file"/>-->
@@ -20,5 +20,6 @@
 
 </div>
 <script src="{% static 'js/upload.js'%}"></script>
+<script type="text/javascript" src="{% static 'js/declare.js'%}"></script>
 </body>
 </html>

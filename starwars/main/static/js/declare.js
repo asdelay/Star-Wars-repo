@@ -1,0 +1,2 @@
+var mil_falc_raw = '{"autonomy": 6, "departure": "Tatooine", "arrival": "Endor", "routes_db": "universe.db"}'
+var routes_raw = ['{"origin": "Tatooine", "destination": "Dagobah", "travel_time": 6}', '{"origin": "Dagobah", "destination": "Endor", "travel_time": 4}', '{"origin": "Dagobah", "destination": "Hoth", "travel_time": 1}', '{"origin": "Hoth", "destination": "Endor", "travel_time": 1}', '{"origin": "Tatooine", "destination": "Hoth", "travel_time": 6}']
