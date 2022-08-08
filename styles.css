@@ -69,3 +69,13 @@ body {
     background-color: rgba(0, 0, 0, 0.486);
     
 }
+.active_drag_drop {
+    background-color: rgba(0, 0, 0, 0.215);;
+}
+.success, .error{
+    display: none;
+    color: white;
+}
+.visibility {
+    display: block;
+}
